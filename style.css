@@ -1,0 +1,93 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+ *{
+     list-style: none;
+     text-decoration: none;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ body{
+     background: #f5f6fa;
+ }
+ 
+ .wrapper .sidebar{
+     background: #e6f3f3;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 225px;
+     height: 100%;
+     padding: 20px 0;
+     transition: all 0.5s ease;
+ }
+
+
+ .wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.wrapper .sidebar .profile h3{
+    color: #000000;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile p{
+    color: #008265;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #008265;
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 0;
+    margin-bottom: 30px;
+
+}
+
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 45px;
+    color: #008265;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+
+
+/* hover  */
+
+.wrapper .sidebar ul li a:hover
+{
+    color: black;
+
+    /* background:white;
+    border-right: 2px solid rgb(5, 68, 104); */
+}
+
