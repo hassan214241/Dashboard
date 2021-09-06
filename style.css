@@ -111,7 +111,7 @@ body {
 .header-componments {
   margin-right: 0;
   justify-content: flex-end;
-  margin-left: 500px;
+  margin-left: 550px;
 }
 
 .header-componments button {
@@ -175,10 +175,12 @@ body {
   margin-left: 90px;
   font-weight: bold;
   font-size: small;
+  margin-right: 70px;
 }
 
 .t-5 {
   margin-left: 20px;
+  margin-right: 113px;
 }
 
 .btn-last {
@@ -201,13 +203,61 @@ button {
   margin-left: 30px;
   font-weight: bold;
   font-size: small;
+  margin-right: 70px;
 }
-/* .main_content .info{
-    margin: 20px;
-    color: #717171;
-    line-height: 25px;
-  }
-  
-  .main_content .info div{
-    margin-bottom: 20px;
-  } */
+
+.input-box {
+  width: 29px;
+  height: 22px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  justify-content: space-between;
+  margin-left: 2px;
+}
+.input-box:focus {
+  /* border-color:gray; */
+  outline: none;
+}
+.input-box-last {
+  width: 42px;
+  height: 22px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  justify-content: space-between;
+  margin-left: 4px;
+  background-color: #d5d7d7;
+}
+.input-box-last:focus {
+  /* border-color:gray; */
+  outline: none;
+}
+.Delete-icon {
+  height: 16px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.select-btn{
+  border: none;
+  background-color: #f6f6f6;
+  margin-right: 136px;
+}
+
+.input-box-l{
+  width: 29px;
+  height: 22px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  justify-content: space-between;
+  margin-left: 2px;
+  background-color: #cdcdcd;
+  border: none;
+}
+
+.week-day{
+  font-size: small;
+  color: white;
+  font-size: 11px;
+  margin-top: 3px;
+  margin-left: 20px;
+}
