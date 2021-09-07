@@ -203,7 +203,7 @@ button {
   margin-left: 30px;
   font-weight: bold;
   font-size: small;
-  margin-right: 70px;
+  margin-right: 74px;
 }
 
 .input-box {
@@ -237,13 +237,13 @@ button {
   margin-left: 5px;
 }
 
-.select-btn{
+.select-btn {
   border: none;
   background-color: #f6f6f6;
   margin-right: 136px;
 }
 
-.input-box-l{
+.input-box-l {
   width: 29px;
   height: 22px;
   border: 1px solid gray;
@@ -254,10 +254,21 @@ button {
   border: none;
 }
 
-.week-day{
+.week-day {
   font-size: small;
   color: white;
   font-size: 11px;
   margin-top: 3px;
   margin-left: 20px;
+}
+
+.input-box-g {
+  width: 29px;
+  height: 22px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  justify-content: space-between;
+  margin-left: 2px;
+  background-color: #cdcdcd;
+  border: none;
 }
